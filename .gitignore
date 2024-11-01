@@ -1,6 +1,7 @@
 #ignoroidaan kaikki tiedostot joiden pääte on .tmp
 *.tmp
 
-#ignoroidaan __pycache__ ja .pytest_cache hakemistot
+#ignoroidaan __pycache__, .pytest_cache ja .DS_Store hakemistot
 __pycache__/
 .pytest_cache/
+.DS_Store
