@@ -1,7 +1,9 @@
 #ignoroidaan kaikki tiedostot joiden pääte on .tmp
 *.tmp
+*.coverage
 
 #ignoroidaan __pycache__, .pytest_cache ja .DS_Store hakemistot
 __pycache__/
 .pytest_cache/
 .DS_Store
+htmlcov
