@@ -19,7 +19,7 @@ class TestVarasto(unittest.TestCase):
 
     def test_konstruktori_saldo_alussa_neg(self):
         uus_varasto = Varasto(10,-5)
-        self.assertAlmostEqual(uus_varasto.saldo, 0)
+        self.assertAlmostEqual(uus_varasto.saldo, 10)
 
     def test_konstruktori_saldo_isompi_kuin_tilavuus(self):
         varasto = Varasto(10, 15)
